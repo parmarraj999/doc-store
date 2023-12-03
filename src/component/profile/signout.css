@@ -1,0 +1,38 @@
+.profile-container{
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    position: absolute;
+    top: 0;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signout-card{
+    padding: 1.2rem 1.8rem;
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    border-radius: 2rem;
+    background: rgb(53,61,54);
+    position: relative;
+    color: white;
+}
+.close-btn{
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: flex-end;
+}
+.close-btn .btn{
+    width: 25px;
+    height: 25px;
+    background: rgb(88, 95, 89);
+    color: white;
+    padding: .6rem;
+}

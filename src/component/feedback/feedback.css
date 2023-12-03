@@ -1,0 +1,110 @@
+.feedbackContainer{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.feedbackContainer::-webkit-scrollbar{
+    display: none;
+}
+.feedback-input{
+    position: fixed;
+    bottom: 2%;
+    width: 75%;
+    left: 50%;
+    transform: translate(-50%,0);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    justify-content: space-between;
+}
+.feedbackHome {
+    width:60%;
+    height: 90vh;
+    margin: 0 auto;
+    padding-top: 2rem;
+    /* display: flex; */
+    /* flex-direction: column; */
+    gap: .8rem;
+}
+.feedback-input input{
+    width: 100%;
+}
+.feedbackHome .header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header h2{
+    font-size: 2rem;
+    color: rgb(222,243,88);
+}
+
+.feedbackHolder{
+    gap: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-bottom: 5rem;
+    overflow: scroll;
+    width: auto;
+}
+
+.feedbackHolder::-webkit-scrollbar{
+    display: none;
+}
+.feedback-wrapper{  
+    /* min-width: 400px;  
+    max-width: 600px;   */
+    width: auto;
+    display: flex;
+    height: auto;
+    gap: .8rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 18px 18px 18px;
+    background:rgb(53,61,54); 
+    padding: 1rem 1.5rem;
+    margin-top: 1.2rem;
+}
+.feedback-wrapper .feedback{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+}
+.feedback-wrapper .delete-btn{
+    background: transparent;
+    color: rgb(243, 88, 88);
+
+}
+.feedback-wrapper h1{
+    font-size: 22px;
+    color: rgb(222,243,88);
+    text-transform: capitalize;
+}
+.feedback-wrapper p{
+    width: auto;;
+    font-size: 18px;
+}
+@media screen and (max-width:765px) {
+    .feedbackContainer{
+        height: 92.5vh;
+    }
+    .feedback-input {
+        gap: .8rem;
+    }
+    .feedbackHome{
+        width: 95%;
+        padding-top: .8rem;
+    }
+    .header h2{
+        font-size: 22px;
+    }
+    .feedback-input{
+        width: 95%;
+    }
+    .feedback-wrapper{
+        min-width: none;;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,75 @@
+.main-container{
+    width: 100%;
+    height: auto;
+    padding: 0 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name-text{
+    font-size: 6rem;
+    font-weight: 300;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+.name-text span{
+    color: rgb(222,243,88);
+}
+
+/* ----- preview section ------  */
+.preview-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.preview-section img{
+    width: 80%;
+    border: 3px solid red;
+    border-radius: 2rem;
+}
+
+/* ----- nav styling --------  */
+.nav-container div{
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+}
+.nav-container div .links{
+    padding: .8rem 0;
+    width: 120PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: white;
+    border-bottom:2px solid transparent;
+    transition: .3s all;
+    text-transform: capitalize;
+}   
+.nav-container div .links:hover{
+    border-bottom: 2px solid rgb(222,243,88);
+}
+.preview{
+    width: 100%;
+    height: 400px;
+}
+
+@media screen and (max-width:765px) {
+    .name-text{
+        font-size: 3.3rem;
+    }
+    .section2{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+}

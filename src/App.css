@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+    background: rgb(253,253,253);
+    font-family: 'Roboto Condensed', sans-serif;
+    background: rgb(31,39,32);
+    text-decoration: none;
+    user-select: none;
+}
+/* main = rgb(222,243,88) */
+ /* grey = rgb(53,61,54) */
+ .App{
+    margin: 0 auto;
+ }
+h1{
+    background: transparent;
+    font-size: 32px;
+}
+h2{
+    background: transparent;
+    font-size: 26px;
+}
+h3{
+    background: transparent;
+    font-size: 22px;
+}
+h4{
+    background: transparent;
+    font-size: 18px;
+}
+p{
+    background: transparent;
+    font-size: 16px;
+    color:rgb(184, 184, 184);;
+}
+p span{
+    color: red;
+    font-size: 18px;
+}
+.icon{
+    background: transparent;
+    font-size: 22px;
+    cursor: pointer;
+}
+.utility-btn{
+    width: 18px;
+    height: 18px;
+    padding: 1rem;
+    border-radius: 50%;
+    background: rgb(222,243,88);
+    color: black;
+}
+/* == main btn style ===  */
+.btn{
+    padding: 10px 2rem;
+    border-radius: 15px;
+    color: rgb(53,61,54);
+    background: rgb(222,243,88) ;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    transition: .3s all;
+    text-decoration: none;
+}
+.btn:hover{
+    border: 2px solid rgb(222,243,88);
+    background: transparent;
+    color: rgb(222,243,88);
+}
+
+/* ---- create btn style ====  */
+.createBtn{
+    width: 210px;
+    height: 56px;
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    /* color: white; */
+    /* background: rgb(0, 136, 255) ; */
+    color: rgb(222,243,88);
+    background: rgb(53,61,54) ;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    transition: .3s all;
+    text-decoration: none;
+}
+.createBtn:hover{
+    border: 2px solid rgb(0, 136, 255);
+    background: transparent;
+    color: rgb(222,243,88);
+}
+
+.disable{
+    opacity: .4;
+}
+/* -- sign out btn style ====  */
+.signOutBtn{
+    background: rgb(53,61,54);
+    color: rgb(222,243,88);
+}
+
+/* -- profile btn style ====  */
+.profileBtn{
+    padding: .6rem .8rem;
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    background: rgb(53,61,54);
+    border-radius: 2rem;
+    border: 2px solid transparent;
+}
+.profileBtn:hover{
+    border: 2px solid rgb(0, 136, 255);
+}
+.profileBtn img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+/* ==== media query for mobile screen =====  */
