@@ -31,7 +31,7 @@
     transition: .3s all;
 }
 .input:hover{
-    border: 3px solid rgb(222,243,88);
+    border: 3px solid #def358;
 }
 @media screen and (max-width:765px) {
     .login-container{
